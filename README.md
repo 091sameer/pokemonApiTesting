@@ -1,9 +1,6 @@
 # Pokemon API Automation
-# https://github.com/091sameer/pokemonApiTesting.git
 
 This repository contains the implementation of the automation tests for the Pokemon API Testing. 
-
-# POKEMON AUTOMATED API TESTING
 
 # SHELL FILE
 To run the tests from a single shell file from the command line locally, please run the below command from your Terminal. This runs the tests using Electron browser in a headless fashion.
