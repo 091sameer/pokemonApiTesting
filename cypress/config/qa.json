@@ -1,0 +1,6 @@
+{
+  "baseUrl": "URL related to qa server",
+  "env": {
+    "something": "qa"
+  }
+}

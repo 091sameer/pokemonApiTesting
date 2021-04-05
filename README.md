@@ -1,4 +1,5 @@
 # Pokemon API Automation
+# https://github.com/091sameer/pokemonApiTesting.git
 
 This repository contains the implementation of the automation tests for the Pokemon API Testing. 
 
@@ -35,8 +36,3 @@ Here the "dev.json" file contains all the environment parameters for the dev env
 We could then load the parameters from the env files according to the environment on which the tests are performed and then execute the tests. It should be easily possible to select the environment and their respective files to be configured from the command line.
 
 The best strategy is to use Docker files for creating containers and performing tests. This helps in isolating the tests and also helps in providing the same environment for any user irrespective of the Operating System being used.
-
-
-
-
-# pokemonApiTesting

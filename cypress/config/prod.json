@@ -1,0 +1,6 @@
+{
+  "baseUrl": "URL related to prod server",
+  "env": {
+    "something": "prod"
+  }
+}

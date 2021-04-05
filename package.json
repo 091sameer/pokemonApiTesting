@@ -1,0 +1,35 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "GUI tests",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "cypress": "6.8.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress-multi-reporters": "^1.2.1",
+    "mocha": "^8.3.0",
+    "mocha-junit-reporter": "latest",
+    "mocha-multi-reporters": "^1.1.7",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
+    "pokedex-promise-v2": "^3.3.0"
+  },
+  "scripts": {
+    "open_gui": "cypress open",
+    "test": "cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "Sameer Sunil Muddebihal",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+{
+  "baseUrl": "URL related to dev server",
+  "env": {
+    "something": "dev"
+  }
+}
